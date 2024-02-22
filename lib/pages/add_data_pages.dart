@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:scube_task/model/task_model.dart';
+
 
 import '../service/service_api.dart';
 import '../widget/text_field_widget.dart';
@@ -40,7 +40,7 @@ class _AddDataPageState extends State<AddDataPage> {
   }
 
   ServiceApi serviceApi = ServiceApi();
-  List<TaskModel> insertData=[];
+
 
   @override
   void initState() {
